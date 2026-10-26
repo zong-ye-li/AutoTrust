@@ -1,0 +1,12 @@
+{
+  "study_id": "round4-extension-full-state-p3-n1.5",
+  "mode": "formal", "num_nodes": 50, "malign": 0.1, "n_std": 1.5,
+  "reference_version": "qwen3.7-plus", "smoothing": 0.0,
+  "include_estimated_postattack_credence": true,
+  "variants": ["full", "no-manipulation"], "baselines": [],
+  "training_seeds": 10, "train_episodes": 200, "horizon": 1000,
+  "evaluation_seeds": 50, "validation_seeds": 3, "validation_every": 20,
+  "conditions": [
+    {"id": "pretrust-3-n-1.5-non-anchor-alive", "pretrust": 3, "n_std": 1.5, "threshold_population": "non-anchor-alive"}
+  ]
+}

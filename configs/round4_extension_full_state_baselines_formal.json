@@ -1,0 +1,8 @@
+{
+  "study_id": "round4-extension-full-state-fixed-baselines", "mode": "formal", "execution_kind": "baseline-only",
+  "num_nodes": 50, "malign": 0.1, "n_std": 1.5, "reference_version": "qwen3.7-plus", "smoothing": 0.0,
+  "include_estimated_postattack_credence": true, "variants": ["full"],
+  "baselines": ["bernoulli-r0-anchor", "postattack-c90", "postattack-c95"],
+  "training_seeds": 1, "train_episodes": 1, "horizon": 1000, "evaluation_seeds": 50, "validation_seeds": 1, "validation_every": 1,
+  "conditions": [{"id": "pretrust-3-n-1.5-non-anchor-alive", "pretrust": 3, "n_std": 1.5, "threshold_population": "non-anchor-alive"}]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Li
+    given-names: Zong-Ye
+title: "AutoTrust Simulation Code"
+version: "1.0.0"
+date-released: 2026-10-27
+repository-code: "https://github.com/zong-ye-li/AutoTrust"
+url: "https://github.com/zong-ye-li/AutoTrust"
+preferred-citation:
+  type: unpublished
+  authors:
+    - family-names: Li
+      given-names: Zong-Ye
+    - family-names: He
+      given-names: Weiyang
+    - family-names: Chang
+      given-names: Chip-Hong
+  title: "Automated Trust Management under LLM Monitoring Uncertainty: Adversarial Risk-Aware Deployment in a Decentralized Multi-Agent Network"
+  year: 2026

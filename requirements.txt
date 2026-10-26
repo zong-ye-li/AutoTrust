@@ -1,0 +1,5 @@
+# The formal runners require Linux or WSL because they use Python's built-in
+# `resource` module. It is unavailable in native Windows Python and is not a
+# pip-installable dependency.
+numpy==2.5.2
+pandas==3.0.5

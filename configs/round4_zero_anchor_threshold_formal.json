@@ -1,0 +1,21 @@
+{
+  "study_id": "round4-pretrust1-non-anchor-transition",
+  "mode": "formal",
+  "num_nodes": 50,
+  "malign": 0.1,
+  "n_std": 2.5,
+  "reference_version": "qwen3.7-plus",
+  "smoothing": 0.0,
+  "variants": ["full", "no-manipulation"],
+  "baselines": [],
+  "training_seeds": 10,
+  "train_episodes": 200,
+  "horizon": 1000,
+  "evaluation_seeds": 50,
+  "validation_seeds": 3,
+  "validation_every": 20,
+  "conditions": [
+    {"id": "pretrust-1-n-2.0-non-anchor-alive", "pretrust": 1, "n_std": 2.0, "threshold_population": "non-anchor-alive"},
+    {"id": "pretrust-1-n-3.0-non-anchor-alive", "pretrust": 1, "n_std": 3.0, "threshold_population": "non-anchor-alive"}
+  ]
+}
