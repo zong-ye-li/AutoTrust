@@ -1,6 +1,6 @@
 # AutoTrust Simulation Code
 
-Manuscript is accepted by TAAI 2026.
+The manuscript is accepted by TAAI 2026.
 
 This folder is the clean GitHub delivery mirror for the paper code. It contains
 only the simulator, formal experiment configurations, and the small derived
@@ -8,6 +8,10 @@ monitor-reference inputs required by the unchanged simulator.
 
 It deliberately excludes raw datasets, prompts, API keys,
 monitor outputs, event logs, checkpoints, and completed experimental results.
+
+## Research context
+
+This research was conducted at Nanyang University for the Global Connect Fellowship, with daily guidance from Dr. [Weiyang He](https://scholar.google.com/citations?user=XwVpc4MAAAAJ&hl=en) and supervision by Prof. [Chip Hong Chang](https://scholar.google.com/citations?user=sovM_aMAAAAJ&hl=en).
 
 ## Layout
 
@@ -31,7 +35,7 @@ or experimental event logs.
 
 | File pattern | Columns | Role in the simulator |
 |---|---|---|
-| `distribution_formai_*.csv` | `Score_Interval`, `Count_Benign`, `Count_Malicious`, and derived percentage/probability columns | The FormAI score-bin distribution. The simulator uses the two count columns to construct the benign and malicious score distributions. |
+| `distribution_formai_*.csv` | `Score_Interval`, `Count_Benign`, `Count_Malicious`, and derived percentage/probability columns | The FormAI score-bin distribution. The simulator uses the two count columns to construct the distributions of benign and malicious scores. |
 | `distribution_wildjailbreak_*.csv` | `Score_Interval`, `Count_Benign`, `Count_Malicious`, and derived percentage/probability columns | The WildJailbreak score-bin distribution. The simulator uses the two count columns in the same way. |
 | `deltaV_lookup_table_formai_*.csv` | `Prior_c_B`, `Prior_c_M`, `Delta_V` | Validation grid for the corresponding FormAI distribution and monitor version. |
 | `deltaV_lookup_table_wildjailbreak_*.csv` | `Prior_c_B`, `Prior_c_M`, `Delta_V` | Validation grid for the corresponding WildJailbreak distribution and monitor version. |
