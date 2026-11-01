@@ -1,13 +1,9 @@
 # AutoTrust Simulation Code
 
-The manuscript is accepted by TAAI 2026.
+The manuscript, **Automated Trust Management under LLM Monitoring Uncertainty: Adversarial Risk-Aware Deployment in a Decentralized Multi-Agent Network**, is accepted by TAAI 2026.
 
-This folder is the clean GitHub delivery mirror for the paper code. It contains
-only the simulator, formal experiment configurations, and the small derived
-monitor-reference inputs required by the unchanged simulator.
-
-It deliberately excludes raw datasets, prompts, API keys,
-monitor outputs, event logs, checkpoints, and completed experimental results.
+This repository is the clean GitHub delivery mirror for the paper code. It contains the simulator, 
+formal experiment configurations, and the small derived monitor-reference inputs required by the unchanged simulator.
 
 ## Research context
 
@@ -15,7 +11,7 @@ This research was conducted at Nanyang University for the Global Connect Fellows
 
 ## Layout
 
-- `Li_He_Chang_2026_AutoTrust_Management_Manuscript_v1.pdf`: accepted by TAAI 2026, not yet uploaded.
+- [`Li_He_Chang_2026_AutoTrust_Management_Manuscript_v1.pdf`](Li_He_Chang_2026_AutoTrust_Management_Manuscript_v1.pdf): manuscript accepted by TAAI 2026.
 - `Agent.py`, `Environment.py`, `Simulation.py`, `TrustBayes.py`: core simulator.
 - `fixed_policy_baselines.py`: fixed-policy comparators used by the paper.
 - `experiment_runner.py`: configuration-driven experiment runner.
